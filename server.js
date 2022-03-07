@@ -7,7 +7,7 @@ const mylink = "aea2-139-162-57-142.ngrok.io"
 const app = express()
 const limiter = rateLimit({
     windowMs: 1 * 60 * 1000, // 15 minutes
-    max: 10 // limit each IP to 100 requests per windowMs
+    max: 100 // limit each IP to 100 requests per windowMs
 })
 app.use(express.static("public"))
 app.use(limiter)
