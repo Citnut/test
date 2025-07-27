@@ -1,0 +1,13 @@
+{
+  "cpuName": "Intel(R) Core(TM) i3-5005U CPU @ 2.00GHz",
+  "cpuMicroarchitecture": "Broadwell (Client)",
+  "cpuVendorFreq": 2000000000,
+  "logicalCores": 4,
+  "physicalCores": 2,
+  "totalMemory": 3897061376,
+  "pageSize": 4096,
+  "memoryType": "Unknown",
+  "diskCount": 2,
+  "partitionCount": 3,
+  "networkInterfaceCount": 1
+}

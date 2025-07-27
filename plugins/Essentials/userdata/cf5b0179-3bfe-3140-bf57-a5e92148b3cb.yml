@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 192.168.1.69
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1753603325257
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1753603628517
+  login: 1753603376318
+money: '0'
+last-account-name: huznex
+lastlocation:
+  world: ee2b86fb-46f0-46a6-9f10-190a3b10486c
+  world-name: world
+  x: 27.894193006469692
+  y: 64.0
+  z: -117.82270312807488
+  yaw: 4.199923515319824
+  pitch: 21.150033950805664
+logoutlocation:
+  world: ee2b86fb-46f0-46a6-9f10-190a3b10486c
+  world-name: world
+  x: 89.90275407253986
+  y: 64.0
+  z: -271.2053319107316
+  yaw: 176.1005401611328
+  pitch: 24.44993019104004
