@@ -12,7 +12,7 @@ INCLUDE_SETTINGS_IN_METRICS: true
 CACHE_SIZE: 1000
 
 # The default language when the client's language can't be found.
-DEFAULT_LANGUAGE: "en"
+DEFAULT_LANGUAGE: "vi"
 # Should the plugin try to use a language file that matches the client's locale setting?
 USE_CLIENT_LOCALE: true
 

@@ -1,88 +1,87 @@
 prefix: '&a[Shop] &r'
 shopinfo: |-
-  &aShop Information:
-  &fOwner: &7%owner
-  &fStock: &7%stock
-  &fItem: &7%item
-shopinfo_buy: '&fBuy &7%amount &ffor &7%price'
-shopinfo_sell: '&fSell &7%amount &ffor &7%price'
-iteminfo: '&aItem Information: &r'
-iteminfo_fullname: '&fFull Name: &7%item'
-iteminfo_shopname: '&fShop Sign: &7%item'
-iteminfo_repaircost: '&fRepair Cost: &7%cost'
+  &aThông tin cửa hàng:
+  &fChủ cửa hàng: &7%owner
+  &fTồn kho: &7%stock
+  &fVật phẩm: &7%item
+shopinfo_buy: '&fMua &7%amount &fgiá &7%price'
+shopinfo_sell: '&fBán &7%amount &fgiá &7%price'
+iteminfo: '&aThông tin vật phẩm: &r'
+iteminfo_fullname: '&fTên đầy đủ: &7%item'
+iteminfo_shopname: '&fTên trên biển hiệu: &7%item'
+iteminfo_repaircost: '&fChi phí sửa chữa: &7%cost'
 iteminfo_book: |-
-  &fBook Title: &7%title
-  &fBook Author: &7%author
-  &fBook Pages: &7%pages
-iteminfo_book_generation: '&fBook Generation: &7%generation'
+  &fTiêu đề sách: &7%title
+  &fTác giả: &7%author
+  &fSố trang: &7%pages
+iteminfo_book_generation: '&fThế hệ sách: &7%generation'
 iteminfo_lore: |-
-  &fLore:
+  &fMô tả:
   &r%lore
 METRICS: |-
-  &a[Shop] &fMetrics:
-  &fAccounts: &7%accounts
-  &fAverage transactions: &7%totalTransactions &f(buy: &7%buyTransactions &fsell: &7%sellTransactions&f)
-  &fAverage items traded: &7%totalItems &f(bought: &7%boughtItems &fsold: &7%soldItems&f)
-ACCESS_DENIED: You don't have permission to access that shop's storage container!
-TRADE_DENIED: You don't have permission to trade with that shop!
-TRADE_DENIED_ACCESS_PERMS: You cannot trade with shops that you have access to!
-TRADE_DENIED_CREATIVE_MODE: You cannot trade with shops while you are in creative
-  mode!
-NOT_ENOUGH_MONEY: You don't have enough money!
-NOT_ENOUGH_MONEY_SHOP: Shop owner doesn't have enough money!
-CLIENT_DEPOSIT_FAILED: Money deposit to your account failed!
-SHOP_DEPOSIT_FAILED: Money deposit to shop owner failed!
-NO_ECONOMY_ACCOUNT: Economy account from shop owner doesn't exist!
-NO_BUYING_HERE: You can't buy here!
-NO_SELLING_HERE: You can't sell here!
-NOT_ENOUGH_SPACE_IN_INVENTORY: You haven't got enough space in inventory!
-NOT_ENOUGH_SPACE_IN_CHEST: There isn't enough space in chest!
-NOT_ENOUGH_ITEMS_TO_SELL: You don't have enough items to sell!
+  &a[Shop] &fThống kê:
+  &fTài khoản: &7%accounts
+  &fGiao dịch trung bình: &7%totalTransactions &f(mua: &7%buyTransactions &fbán: &7%sellTransactions&f)
+  &fVật phẩm giao dịch trung bình: &7%totalItems &f(đã mua: &7%boughtItems &fđã bán: &7%soldItems&f)
+ACCESS_DENIED: Bạn không có quyền truy cập kho của cửa hàng này!
+TRADE_DENIED: Bạn không có quyền giao dịch với cửa hàng này!
+TRADE_DENIED_ACCESS_PERMS: Bạn không thể giao dịch với các cửa hàng mà bạn có quyền truy cập!
+TRADE_DENIED_CREATIVE_MODE: Bạn không thể giao dịch khi đang ở chế độ sáng tạo!
+NOT_ENOUGH_MONEY: Bạn không đủ tiền!
+NOT_ENOUGH_MONEY_SHOP: Chủ cửa hàng không đủ tiền!
+CLIENT_DEPOSIT_FAILED: Gửi tiền vào tài khoản của bạn thất bại!
+SHOP_DEPOSIT_FAILED: Gửi tiền cho chủ cửa hàng thất bại!
+NO_ECONOMY_ACCOUNT: Tài khoản kinh tế của chủ cửa hàng không tồn tại!
+NO_BUYING_HERE: Bạn không thể mua ở đây!
+NO_SELLING_HERE: Bạn không thể bán ở đây!
+NOT_ENOUGH_SPACE_IN_INVENTORY: Bạn không đủ chỗ trống trong kho đồ!
+NOT_ENOUGH_SPACE_IN_CHEST: Không đủ chỗ trống trong rương!
+NOT_ENOUGH_ITEMS_TO_SELL: Bạn không có đủ vật phẩm để bán!
 NOT_ENOUGH_SPACE_IN_YOUR_SHOP: |-
-  [%price %item&7 shop is full!](&f%seller&7 tried to sell
-  &7In world: &f%world
-  &7At position: &f%x/%y/%z)
-NOT_ENOUGH_STOCK: This shop is out of stock.
+  [Cửa hàng %price %item&7 đã đầy!](&f%seller&7 đã cố bán
+  &7Thế giới: &f%world
+  &7Tọa độ: &f%x/%y/%z)
+NOT_ENOUGH_STOCK: Cửa hàng này đã hết hàng.
 NOT_ENOUGH_STOCK_IN_YOUR_SHOP: |-
-  [%price %item&7 shop is out of stock!](&f%buyer&7 tried to buy
-  &7In world: &f%world
-  &7At position: &f%x/%y/%z)
-YOU_BOUGHT_FROM_SHOP: You bought %item from %owner for %price.
+  [Cửa hàng %price %item&7 đã hết hàng!](&f%buyer&7 đã cố mua
+  &7Thế giới: &f%world
+  &7Tọa độ: &f%x/%y/%z)
+YOU_BOUGHT_FROM_SHOP: Bạn đã mua %item từ %owner với giá %price.
 SOMEBODY_BOUGHT_FROM_YOUR_SHOP: |-
-  [%buyer bought %item for %price.](&7In world: &f%world
-  &7At position: &f%x/%y/%z)
-YOU_SOLD_TO_SHOP: You sold %item to %buyer for %price.
+  [%buyer đã mua %item với giá %price.](&7Thế giới: &f%world
+  &7Tọa độ: &f%x/%y/%z)
+YOU_SOLD_TO_SHOP: Bạn đã bán %item cho %buyer với giá %price.
 SOMEBODY_SOLD_TO_YOUR_SHOP: |-
-  [%seller sold %item for %price.](&7In world: &f%world
-  &7At position: &f%x/%y/%z)
-YOU_CANNOT_CREATE_SHOP: You can't create this type of shop!
-NO_CHEST_DETECTED: Couldn't find a chest!
-INVALID_SHOP_DETECTED: The shop cannot be used!
-INVALID_SHOP_PRICE: The shop has an invalid price!
-INVALID_SHOP_QUANTITY: The shop has an invalid quantity!
-CANNOT_ACCESS_THE_CHEST: You don't have permissions to access this chest!
-SELL_PRICE_HIGHER_THAN_BUY_PRICE: Sell price is above the buy price!
-SELL_PRICE_ABOVE_MAX: Sell price %price is above maximum %maxprice!
-SELL_PRICE_BELOW_MIN: Sell price %price is below minimum %minprice!
-BUY_PRICE_ABOVE_MAX: Buy price %price is above maximum %maxprice!
-BUY_PRICE_BELOW_MIN: Buy price %price is below minimum %minprice!
-CLICK_TO_AUTOFILL_ITEM: Click the sign with the item that this shop is for!
-NO_ITEM_IN_HAND: You don't have an item in your hand to autofill!
-PROTECTED_SHOP: Successfully protected the shop with LWC!
-PROTECTED_SHOP_SIGN: Successfully protected the shop sign with LWC!
-SHOP_CREATED: Shop successfully created!
-SHOP_FEE_PAID: You have been charged %amount
-SHOP_REFUNDED: You have been refunded %amount.
-ITEM_GIVEN: Given %item to %player.
-RESTRICTED_SIGN_CREATED: Sign successfully created!
-PLAYER_NOT_FOUND: Player not found!
-NO_PERMISSION: You don't have permissions to do that!
-INCORRECT_ITEM_ID: You have specified an invalid item id!
-INVALID_CLIENT_NAME: Your username is not a valid Minecraft username!
-NOT_ENOUGH_PROTECTIONS: Could not create a protection!
-NO_SHOP_FOUND: No shop found.
-CANNOT_CREATE_SHOP_HERE: You can't create shop here!
-TOGGLE_MESSAGES_OFF: You will no longer receive messages from your shop(s).
-TOGGLE_MESSAGES_ON: You will now receive messages from your shop(s).
-TOGGLE_ACCESS_ON: You can no longer trade at shops that you have access to
-TOGGLE_ACCESS_OFF: You can now trade at shops that you have access to
+  [%seller đã bán %item với giá %price.](&7Thế giới: &f%world
+  &7Tọa độ: &f%x/%y/%z)
+YOU_CANNOT_CREATE_SHOP: Bạn không thể tạo loại cửa hàng này!
+NO_CHEST_DETECTED: Không tìm thấy rương!
+INVALID_SHOP_DETECTED: Cửa hàng này không thể sử dụng!
+INVALID_SHOP_PRICE: Giá cửa hàng không hợp lệ!
+INVALID_SHOP_QUANTITY: Số lượng cửa hàng không hợp lệ!
+CANNOT_ACCESS_THE_CHEST: Bạn không có quyền truy cập rương này!
+SELL_PRICE_HIGHER_THAN_BUY_PRICE: Giá bán cao hơn giá mua!
+SELL_PRICE_ABOVE_MAX: Giá bán %price vượt quá tối đa %maxprice!
+SELL_PRICE_BELOW_MIN: Giá bán %price thấp hơn tối thiểu %minprice!
+BUY_PRICE_ABOVE_MAX: Giá mua %price vượt quá tối đa %maxprice!
+BUY_PRICE_BELOW_MIN: Giá mua %price thấp hơn tối thiểu %minprice!
+CLICK_TO_AUTOFILL_ITEM: Hãy nhấn vào biển hiệu với vật phẩm mà cửa hàng này bán!
+NO_ITEM_IN_HAND: Bạn không có vật phẩm trên tay để tự động điền!
+PROTECTED_SHOP: Đã bảo vệ cửa hàng bằng LWC thành công!
+PROTECTED_SHOP_SIGN: Đã bảo vệ biển hiệu cửa hàng bằng LWC thành công!
+SHOP_CREATED: Tạo cửa hàng thành công!
+SHOP_FEE_PAID: Bạn đã bị trừ %amount
+SHOP_REFUNDED: Bạn đã được hoàn lại %amount.
+ITEM_GIVEN: Đã đưa %item cho %player.
+RESTRICTED_SIGN_CREATED: Tạo biển hiệu thành công!
+PLAYER_NOT_FOUND: Không tìm thấy người chơi!
+NO_PERMISSION: Bạn không có quyền làm điều này!
+INCORRECT_ITEM_ID: Bạn đã nhập ID vật phẩm không hợp lệ!
+INVALID_CLIENT_NAME: Tên người dùng của bạn không hợp lệ!
+NOT_ENOUGH_PROTECTIONS: Không thể tạo bảo vệ!
+NO_SHOP_FOUND: Không tìm thấy cửa hàng.
+CANNOT_CREATE_SHOP_HERE: Bạn không thể tạo cửa hàng ở đây!
+TOGGLE_MESSAGES_OFF: Bạn sẽ không còn nhận tin nhắn từ cửa hàng nữa.
+TOGGLE_MESSAGES_ON: Bạn sẽ nhận tin nhắn từ cửa hàng.
+TOGGLE_ACCESS_ON: Bạn không thể giao dịch tại các cửa hàng mà bạn có quyền truy cập
+TOGGLE_ACCESS_OFF: Bạn có thể giao dịch tại các cửa hàng mà bạn có quyền truy cập

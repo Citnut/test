@@ -58,7 +58,7 @@ hooks:
   PlaceholderAPI:
     enabled: true
   ProtocolLib:
-    enabled: true
+    enabled: false
   Slimefun:
     enabled: false
   Towny:

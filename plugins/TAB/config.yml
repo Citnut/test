@@ -3,33 +3,33 @@ header-footer:
   enabled: true
   header:
     - "<#FFFFFF>&m                                                </#FFFF00>"
-    - "&3&lServer name"
+    - "&3&lServer trai xinh gái đẹp"
     - "&r&7&l>> %animation:Welcome%&3 &l%player%&7&l! &7&l<<"
-    - "&r&7Online players: &f%online%"
-    - "&6Online staff: &e%staffonline%"
+    - "&r&7Online : &f%online%"
+#    - "&6Online staff: &e%staffonline%"
     - ""
   footer:
     - "%animation:time%"
     - "&2Ping: %ping%"
-    - "&7&l Used memory: %memory-used% MB / %memory-max% MB"
-    - ""
-    - "&r&7Visit our webpage %animation:web%"
+#    - "&7&l Used memory: %memory-used% MB / %memory-max% MB"
+#    - ""
+#    - "&r&7Visit our webpage %animation:web%"
     - "<#FFFFFF>&m                                                </#FFFF00>"
   disable-condition: '%world%=disabledworld'
   per-world:
     world1:
       header:
-        - "an example of world with custom"
+        - ""
       footer:
-        - "header/footer and prefix/suffix"
+        - ""
     world2;world3:
       header:
-        - "This is a shared header for"
+        - ""
         - "world2 and world3"
   per-server:
     server1:
       header:
-        - "an example of server with custom header"
+        - ""
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Tablist-name-formatting
 tablist-name-formatting:
@@ -39,7 +39,7 @@ tablist-name-formatting:
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Nametags
 scoreboard-teams:
-  enabled: true
+  enabled: false
   enable-collision: true
   invisible-nametags: false
   anti-override: true
@@ -60,7 +60,7 @@ playerlist-objective:
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Belowname
 belowname-objective:
-  enabled: false
+  enabled: true
   value: "%health%"
   title: "&cHealth"
   fancy-value: "&c%health%"

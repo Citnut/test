@@ -16,23 +16,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1753636095929
-  login: 1753635868129
+  logout: 1753664239273
+  login: 1753664073627
 money: '0'
 last-account-name: citnut
 lastlocation:
   world: 8b24bc09-3ddb-4649-beb4-28c29e553225
   world-name: world
-  x: 42.5
-  y: 71.0
-  z: -87.5
-  yaw: 0.0
-  pitch: 0.0
+  x: 334.9827136994405
+  y: 163.73747110213372
+  z: -44.28749348281044
+  yaw: -5.34295654296875
+  pitch: 54.300079345703125
 logoutlocation:
   world: 8b24bc09-3ddb-4649-beb4-28c29e553225
   world-name: world
-  x: 162.5017396970866
-  y: 86.0
-  z: 8.226892784212799
-  yaw: 53.75711441040039
-  pitch: 10.800034523010254
+  x: 1018.0257444766308
+  y: 90.0
+  z: -267.3170758799777
+  yaw: 134.45693969726562
+  pitch: 15.000105857849121
